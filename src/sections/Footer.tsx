@@ -59,16 +59,16 @@ export const FooterSection = () => {
                         <img src={logoImg.src} alt="logo img" />
                     </div>
                     <nav className="hidden md:flex gap-12 text-zinc-500 font-heading font-black">
-                        <a href="#" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Home</a>
-                        <a href="#" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Blog</a>
-                        <a href="#" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Careers</a>
-                        <a href="#" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Contact</a>
+                        <a href="https://phantom.app" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Phantom Wallet</a>
+                        <a href="https://x.com/mvegaslive" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">X</a>
+                        <a href="https://instagram.com/mvegaslive" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Instagram</a>
+                        <a href="https://t.me/mvegaslive" className="hover:text-fuchsia-500 transition-colors hover:underline hover:underline-offset-2">Telegram</a>
                     </nav>
                 </div>
 
                 <div className="mt-12 md:mt-48 md:flex justify-between items-center">
                     <p className="text-zinc-400">
-                        &copy; 2024 BlockForge. All rights reserved
+                        &copy; 2024 Metavegas.live. All rights reserved
                     </p>
                     <div className="mt-4 md:mt-0 flex gap-6">
                         {socialIcons.map((icon, iconIndex) => (

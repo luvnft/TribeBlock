@@ -4,9 +4,9 @@ import LearnMoreButton from "../components/LearnMoreButton"
 import { motion, useScroll, useTransform } from "framer-motion"
 
 const listItems = [
-    "Experience unparalleled security and scalability",
-    "Fully benifit from scalable network effects",
-    "Unlock the potential of decentralized networks",
+    "Connect your Phantom wallet",
+    "Copy and paste the referral link",
+    "Get paid instantly when your referrals play",
 ];
 
 
@@ -58,10 +58,10 @@ export const FeaturesGrid = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="col-span-2">
                             <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl">
-                                Empowering the future of BlockChain
+                                 3x the commission of Stake
                             </h2>
                             <p className="text-xl lg:text-2xl text-zinc-400 mt-8">
-                                BlockForge provides robust and secure infrastructur to support the next generation of decentralized applications
+                                 Metavegas.live offers the highest commission payouts in the world, ensuring that our tribe eats by referring players to decentralized games.
                             </p>
                             <ul className="flex flex-col gap-8 mt-12">
                                 {listItems.map((item) => (
@@ -74,8 +74,9 @@ export const FeaturesGrid = () => {
                                 ))}
                             </ul>
                             <div className="flex gap-8 mt-12 items-center justify-center lg:justify-start lg:pr-2">
-                                <CutCornerButton>Get Started</CutCornerButton>
-                                <LearnMoreButton>Learn More</LearnMoreButton>
+                                 <a href="https://play.metavegas.live" target="_blank" rel="noopener noreferrer">
+                                 <CutCornerButton>PLAY</CutCornerButton>
+                                 </a> {/* Closing tag added here */}
                             </div>
                         </div>
                         <div className="hidden md:block">
@@ -131,19 +132,20 @@ export const FeaturesGrid = () => {
                         </div>
                         <div className="col-span-2">
                             <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl">
-                                BlockForge leads the way
+                                Instant payouts with no middleman
                             </h2>
                             <div className="flex flex-col text-xl lg:text-2xl text-zinc-400 mt-6 gap-6">
                                 <p>
-                                    BlockForge is dedicated to support the evolution of Web3 applications by delivering the necessary infrastructure and secuirty for Web3
+                                     Start with $1000 in fake money to warm up with then use $SOL to win instantly to your Solana wallet without a middleman. Play live and tag @mvegaslive on X, Instaram socials or in our Telegram to win some more.
                                 </p>
                                 <p>
-                                    BlockForge champions Web3 for everyone. As a decentralized BlockChain scaling platform, BlockForge enables developers to create scable user-friendly Apps with transaction cost ensuring robust security.
+                                     We turn the best Metavegas.live playa content to digital assets airdropped to your wallet so that you can sell it in our tribe. 
                                 </p>
                             </div>
                             <div className="flex gap-8 mt-12 items-center justify-center lg:justify-start lg:pr-2">
-                                <CutCornerButton>Get Started</CutCornerButton>
-                                <LearnMoreButton>Learn More</LearnMoreButton>
+                            <a href="https://play.metavegas.live" target="_blank" rel="noopener noreferrer">
+                            <CutCornerButton>PLAY</CutCornerButton>
+                            </a> {/* Closing tag added here */}
                             </div>
                         </div>
                     </div>

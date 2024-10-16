@@ -43,17 +43,17 @@ export const HeroSection = () => {
         <section className="py-24 md:py-52 overflow-x-clip">
             <div className="container">
                 <p className="uppercase font-extrabold text-center text-zinc-500 tracking-wider">
-                    Introducing BlockForge
+                    Tribe Owned 
                 </p>
                 <h1 className="font-heading font-black text-5xl md:text-6xl lg:text-7xl text-center mt-4 max-w-3xl mx-auto">
-                    The Future Of BlockChain Is Here
+                    #1 Live Social Casino
                 </h1>
                 <p className="text-center text-xl md:text-2xl mt-6 text-zinc-400 max-w-xl mx-auto"> 
-                    BlockForge is pioneering smart contract interface digtial platform for data solutions
+                    Metavegas.live is a charitable social Solana casino that gives back to the tribe, but also rewards players who play live.
                 </p>
 
                 <div className="flex justify-center mt-10">
-                    <CutCornerButton className="">Get started</CutCornerButton>
+                    <CutCornerButton className="">PLAY</CutCornerButton>
                 </div>
                 <div className="flex justify-center mt-24">
                     <div className="inline-flex relative z-0">

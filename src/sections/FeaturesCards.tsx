@@ -9,25 +9,25 @@ import { useEffect, useState } from "react";
 const cardData = [
     {
         image: Pill,
-        title: 'Revolutionary BlockChain API',
+        title: 'Dice',
         description: 'Effortlessly intergrate and manage BlockChain with our cutting edge API, designed for seamless control',
         color: 'fuchsia'
     },
     {
         image: Cuboid,
-        title: 'Decentralized Data Solutions',
-        description: 'Empower your applications with decentralized data solutions, ensuring seceurity and transparency every step',
+        title: 'Crash',
+        description: 'Empower your applications with decentralized data solutions, ensuring security and transparency every step',
         color: 'lime'
     },
     {
         image: Cone,
-        title: 'Next-Gen Smart Contracts',
-        description: 'Unlock the potential on Next-Gen smart contracts with our robust and scaleable API, taiolored for modern BlockChain needs',
+        title: 'Roulette',
+        description: 'Unlock the potential on Next-Gen smart contracts with our robust and scalable API, tailored for modern BlockChain needs',
         color: 'cyan'
     },
     {
         image: Icosahedron,
-        title: 'Seamless BlockChain Intergration',
+        title: 'Slots',
         description: 'Intergrate BlockChain technology seamlessly into your project, with minimal effort and maximum results',
         color: 'violet'
     }
@@ -53,7 +53,7 @@ export const FeaturesCards = () => {
         <section className="py-24 overflow-x-clip md:-mt-28">
             <div className="container">
                 <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center">
-                    Discover the feature of BlockChain with BlockForge
+                📈 Trending Metavegas Games
                 </h2>
 
                 <div className="mt-36 lg:mt-48 flex">

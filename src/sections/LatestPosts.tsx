@@ -25,9 +25,9 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
             <div className="container">
 
                 <div className="max-w-3xl mx-auto">
-                    <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center">Your portal to everything BlockChain</h2>
+                    <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl text-center">🛣️ Roadmap</h2>
                     <p className="text-xl lg:2xl text-center text-zinc-400 mt-8">
-                        Keep up with the newest trends, updates and insights in the BlockChain world, updated weekly
+                        Metavegas.live is the new Vegas the culture owns with games, live shows, events and comedy shows.
                     </p>
                 </div>
             
@@ -82,7 +82,9 @@ export const LatestPosts = (props: { latestPosts: CollectionEntry<'blog'>[] }) =
                 </div>
 
                 <div className="flex justify-center mt-48 md:mt-32">
-                    <CutCornerButton>Read the Blog</CutCornerButton>
+                <a href="https://t.me/mvegaslive" target="_blank" rel="noopener noreferrer">
+                            <CutCornerButton>TELEGRAM</CutCornerButton>
+                            </a> {/* Closing tag added here */}
                 </div>
             </div>
         </section>
