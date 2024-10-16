@@ -58,7 +58,7 @@ export const FeaturesGrid = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="col-span-2">
                             <h2 className="font-heading font-black text-4xl md:text-5xl lg:text-6xl">
-                                 3x the commission of Stake
+                                 33% referral fee, 3x the commission of Stake
                             </h2>
                             <p className="text-xl lg:text-2xl text-zinc-400 mt-8">
                                  Metavegas.live offers the highest commission payouts in the world, ensuring that our tribe eats by referring players to decentralized games.
