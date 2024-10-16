@@ -42,7 +42,7 @@ export const HeaderSection = () => {
                 <div className="container">
                     <div className="flex justify-between items-center h-24 md:h-28">
                         <div>
-                            <img src="/assets/images/logo.svg" alt="BlockForge Logo" />
+                            <img src="/assets/images/logo.png" alt="BlockForge Logo" />
                         </div>
                         <div className="flex items-center gap-4">
                             <CutCornerButton className="hidden md:inline-flex">PLAY</CutCornerButton>

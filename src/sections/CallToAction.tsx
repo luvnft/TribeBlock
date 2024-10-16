@@ -60,7 +60,9 @@ export const CallToActionSection = () => {
                     <p className="text-xl lg:text-2xl text-zinc-400 text-center mt-8 max-w-sm mx-auto">Start building, using BlockChain technology, with BlockForge</p>
 
                     <div className="flex justify-center mt-12">
-                        <CutCornerButton>Get Started</CutCornerButton>
+                    <a href="https://play.metavegas.live" target="_blank" rel="noopener noreferrer">
+                                 <CutCornerButton>PLAY</CutCornerButton>
+                                 </a> {/* Closing tag added here */}
                     </div>
                 </div>
             </div>
